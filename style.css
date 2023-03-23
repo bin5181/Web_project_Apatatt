@@ -56,14 +56,14 @@ body {
 }
 
 .navbar li a{
-  color: rgb(5, 0, 0);
+  color: rgb(0, 0, 0);
   font-weight: bold;
   text-decoration: none;
   padding: 0px 23px;
 
 }
 .navbar li a:hover{
-  color: #868aa3;
+  color: #000000;
   text-decoration: none;
   padding: 34px 23px;
 
@@ -121,13 +121,14 @@ body {
 
 .btn2:hover{
   background-color: #ca3d3d;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 
   header {
     /* background-color: #efe9e9;
     color: #fff; */
+    color: rgb(0, 0, 0);
     padding: 25px;
     text-align: center;
   }
@@ -146,7 +147,8 @@ body {
   
   section h2 {
     font-size: 1.5em;
-    margin: 0 0 10px 0;
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 0;
   }
   
   table {
@@ -155,8 +157,9 @@ body {
   }
   
   th, td {
-    border: 1px solid #000000;
-    padding: 8px;
+    border: 1px hidden;
+    padding: 5px;
+    color: rgb(0, 0, 0);
     text-align: left;
   }
   
