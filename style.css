@@ -1,0 +1,167 @@
+/* CSS Reset */
+body {
+  background-image: url('6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 2s ease-in-out;
+}
+
+.left{
+/* border: 2px solid red; */
+  display: inline-block;
+  
+  position: absolute;
+  left: 44px;
+  top: 0px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.left img{
+  filter: invert(100%);
+  width: 86px;
+  margin: 18px;
+}
+
+.left div{
+  text-align: center;
+  line-height: 0px;
+}
+
+.mid{
+  display: block;
+  /* border: 2px solid red; */
+  width: 37%;
+  margin: 20px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right{
+  display: inline-block;
+  /* border: 2px solid red; */
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.navbar{
+  display: inline-block;
+}
+
+.navbar li{
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+.navbar li a{
+  color: rgb(5, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0px 23px;
+
+}
+.navbar li a:hover{
+  color: #868aa3;
+  text-decoration: none;
+  padding: 34px 23px;
+
+}
+
+.btn{
+  margin: 12px 9px;
+  color: white;
+  background-color: black;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+}
+
+.btn:hover{
+  background-color: rgb(61, 60, 60);
+  color: hotpink;
+}
+
+.form{
+  /* border: 2px solid white; */
+  margin: 87px 70px;
+  padding: 10px 10px;
+  width: 34%;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.formgroup input{
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  width: 400px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.form h1{
+  text-align: center;
+}
+
+.btn2{
+  display: inline;
+  width: 19%;
+  margin: 5px 209px;
+  background-color: red;
+  font-size: 23px;
+  border-radius: 10px;
+}
+
+.btn2:hover{
+  background-color: #ca3d3d;
+  color: white;
+}
+
+
+  header {
+    /* background-color: #efe9e9;
+    color: #fff; */
+    padding: 25px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    /* background-color: #f2f2f2; */
+    font-weight: bold;
+  }
+  
